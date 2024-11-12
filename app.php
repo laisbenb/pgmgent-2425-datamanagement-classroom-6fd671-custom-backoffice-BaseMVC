@@ -5,6 +5,7 @@ require_once __DIR__ . '/autoload.php';
 //inladen van environment variabelen
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->safeLoad();
+//print_r($_ENV);
 require_once __DIR__ . '/config.php';
 
 //starten van sessie
